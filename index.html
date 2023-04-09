@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bootstrap5</title>
+
+  <!-- css link -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form class="row bg-danger g-3">
+          <div class="col-lg-6">
+            <label for="email1" class="form-label">Email</label>
+            <input type="email" class="form-control email1 bg-success" name="email1" id="email1" placeholder="Enter Your Email" required>
+          </div>
+
+          <div class="col-lg-6">
+            <label for="password1" class="form-label">Password</label>
+            <input type="password" class="form-control password1 bg-success" name="password1" id="password1" placeholder="Enter Your password" required>
+          </div>
+
+          <div class="col-lg-12">
+            <label for="address1" class="form-label">Address1</label>
+            <input type="text" class="form-control address1 bg-success" name="address1" id="address1" placeholder="Khagrachari, Chittagong, Bangladesh" required>
+          </div>
+          <div class="col-lg-12">
+            <label for="address2" class="form-label">Address2</label>
+            <input type="text" class="form-control address2 bg-success" name="address2" id="address2" placeholder="234,Monatake, Mohalchari." required>
+          </div>
+          <div class="col-lg-6">
+            <label for="city1" class="form-label">Enter City</label>
+            <input type="text" class="form-control city1 bg-success" list="datalistoptions" name="city1" id="city1" required>
+            <datalist id="datalistoptions">
+              <option value="Rangamati">
+              <option value="Khagrachari">
+              <option value="Bandorban">
+            </datalist>
+          </div>
+
+          <div class="col-lg-4">
+            <label for="state" class="form-label">State</label>
+            <select id="state" class="form-select bg-success" required>
+              <option selected>Choose</option>
+              <option class="dhaka">Dhaka</option>
+              <option class="chittagong">Chittagong</option>
+              <option class="khulna">Khulna</option>
+              <option class="borisal">Borisal</option>
+              <option class="sylet">Sylet</option>
+            </select>
+          </div>
+          <div class="col-lg-2">
+            <label for="zip" class="form-label">Zip</label>
+            <input type="text" class="form-control bg-success" id="zip">
+              
+          </div>
+          <div class="col-lg-12">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input bg-primary" id="checkbox">
+              <label for="checkbox" class="form-check-label">Check me out</label>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4">
+            <button type="submit" class="btn btn-primary">Sign In</button>
+            <button type="reset" class="btn btn-success">RESET</button>
+          </div>
+
+
+        </form>
+
+    </div>
+ 
+
+  <!-- js link -->
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
